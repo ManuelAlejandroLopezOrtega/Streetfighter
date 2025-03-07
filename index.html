@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StreetFighterUnir</title>
+    <link rel="icon" href="./img/arcade.png">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="fondo">
+    <h1 class="Letras" id="primero"> To live is to fight to fight is to live</h1>
+
+    <table id="tabla">
+
+        <tr>
+            <td colspan="4" id="primerafila"> Street Fighter</td>
+        </tr>
+        <tr>
+            <td id="personaje"> Ken <img src="./img/ken.png" alt="Ken"></td>
+            <td id="personaje"> Chun Li <img src="./img/ChunLi.png" alt="Chun Li"></td>
+            <td id="personaje">Zangief <img src="./img/Zangief.png" alt="Zangief"></td>
+            <td id="personaje">Dhalsim <img src="./img/Dhalsim.png" alt="Dhalsim"></td>
+        </tr>
+        <tr>
+            <td id="personaje">Ryu <img src="./img/Ryu.png" alt="Ryu"></td>
+            <td id="personaje">E Honda <img src="./img/EHonda.png" alt="E Honda"></td>
+            <td id="personaje">Blanka <img src="./img/Blanka.png" alt="Blanka"></td>
+            <td id="personaje">Guille <img src="./img/Guille.png" alt="Guille"></td>
+        </tr>
+        <tr>
+            <td id="personaje">T Hawk <img src="./img/THawk.png" alt="T Hawk"></td>
+            <td id="personaje">Feilong <img src="./img/Feilong.png" alt="Feilong"></td>
+            <td id="personaje">Dee Jay <img src="./img/DeeJay.png" alt="Dee Jay"></td>
+            <td id="personaje">Cammy <img src="./img/Cammy.png" alt="Cammy"></td>
+        </tr>
+        <tr>
+            <td id="personaje">Balrog <img src="./img/Balrog.png" alt="Balrog"></td>
+            <td id="personaje">Vega <img src="./img/Vega.png" alt="Vega"></td>
+            <td id="personaje">Sagat <img src="./img/Sagat.png" alt="Sagat"></td>
+            <td id="personaje">M Bison <img src="./img/MBison.png" alt="M Bison"></td>
+        </tr>
+    </table>
+    
+    <h2 class="Letras" id="segundo">Formulario de inscrpción para jugar a Street Fighter</h2>
+
+    <form>
+
+        <fieldset>
+
+            <legend>Datos personales</legend>
+
+            <label>Nombre:</label>
+            <input type="text" name="Nombre">
+
+            <label>Apellidos:</label>
+            <input type="text" name="Apellidos">
+
+            <label>Dirección Postal:</label>
+            <input type="text" placeholder="Calle" name="Calle">
+            <input type="text" placeholder="Nº" name="Nº">
+            <input type="text" placeholder="Piso" name="Piso">
+            <input type="text" placeholder="Cód.Postal" name="Cód.Postal">
+            <input type="text" placeholder="Ciudad" name="Ciudad">
+
+            <label>Nick:</label>
+            <input type="text" name="Nick">
+
+            <label>Correo Electrónico:</label>
+            <input type="email" name="Correo">
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Sexo Usuario</legend>
+            <label><input type="radio" name="Sexo" value="Hombre">Hombre</label>
+            <label><input type="radio" name="Sexo" value="Mujer">Mujer</label>
+            <label><input type="radio" name="Sexo" value="No decirlo">Prefiero No Decir</label>
+
+
+        </fieldset>
+
+        <fieldset>
+
+            <label>Fecha Nacimiento <input type="date" name="Fecha nacimiento"></label>
+
+        </fieldset>
+
+        <fieldset>
+
+            <Legend>Personajes</Legend>
+
+            <label>Selecciona el personaje: <input type="text" name="Personaje"></label>
+            
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Comentarios</legend>
+            <textarea name="Comentarios"></textarea>
+
+        </fieldset>
+
+        <button type="submit">Enviar</button>
+        <button type="reset">Borrar</button>
+
+    </form>
+
+</body>
+</html>
